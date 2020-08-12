@@ -120,7 +120,25 @@
     z-index: 10;
     text-align: center;
   }
+
+  ul.nav-list {
+    padding: 10px 20px;
+    list-style: none;
+    background-color: gray;
+  }
+
+  ul.nav-list li {
+    display: flex;
+  } 
+
+  ul.nav-list li+li:before {
+    padding: 20px;
+    color: black;
+    justify-content: center;
+    content: "/\00a0";
+  }
   
+
   .nav-list {
     display: flex;
     margin-right: 1rem;
@@ -314,7 +332,7 @@
   /* Footer */
   
   footer {
-    font-weight: 300;
+    font-weight: normal;
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
