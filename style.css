@@ -162,8 +162,8 @@
   .welcome-section > p {
     font-size: 3rem;
     font-weight: 200;
-    font-style: italic;
-    color: var(--main-red);
+    font-style: oblique;
+    color: white;
   }
   
   /* Projects section */
