@@ -123,7 +123,7 @@
   
   .nav-list {
     display: flex;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-family: "Lucida Console", Monaco, monospace;
     }
   
@@ -139,8 +139,17 @@
   
   .nav-list a {
     display: flex;
-    font-size: 5rem;
     padding: 2rem;
+  }
+
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list a {
+      margin: 0 1rem;
+    }
   }
   
   .nav-list a:hover {
