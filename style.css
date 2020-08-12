@@ -122,7 +122,7 @@
   }
 
   ul.nav-list {
-    padding: 10px 20px;
+    padding: 0px 0px;
     list-style: none;
     background-color: gray;
   }
@@ -132,7 +132,7 @@
   } 
 
   ul.nav-list li+li:before {
-    padding: 20px;
+    padding: 20px 1px 1px 0px;
     color: black;
     justify-content: center;
     content: "/\00a0";
