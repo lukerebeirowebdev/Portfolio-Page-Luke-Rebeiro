@@ -359,6 +359,7 @@ footer i {
 form {
   line-height: 50px;
   justify-content: center;
+  height: 10vh;
 }
 .send {
   display: inline-block;
