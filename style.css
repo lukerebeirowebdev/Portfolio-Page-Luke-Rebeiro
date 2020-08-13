@@ -341,7 +341,7 @@ footer {
 
 footer > p {
   margin: 2rem;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 footer i {
@@ -352,7 +352,7 @@ footer i {
   footer {
     text-align: center;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 150px;
   }
 }
 
