@@ -287,17 +287,16 @@ ul.nav-list li + li:before {
 .contact-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 80vh;
+  height: 40vh;
   padding: 0 2rem;
   background: var(--main-gray);
 }
 
 .contact-section-header > h2 {
-  font-size: 8rem;
+  font-size: 40px;
 }
 
 @media (max-width: 28.75em) {
@@ -307,11 +306,12 @@ ul.nav-list li + li:before {
 }
 
 .contact-section-header > p {
-  font-style: italic;
+  font-style: normal;
 }
 
 .contact-links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   max-width: 980px;
@@ -337,11 +337,11 @@ footer {
   justify-content: space-evenly;
   padding: 2rem;
   background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
 }
 
 footer > p {
   margin: 2rem;
+  padding-top: 30px;
 }
 
 footer i {
@@ -350,8 +350,9 @@ footer i {
 
 @media (max-width: 28.75em) {
   footer {
-    flex-direction: column;
     text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
   }
 }
 
