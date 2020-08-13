@@ -356,19 +356,3 @@ footer i {
 }
 
 /* Contact Form */
-form {
-  line-height: 50px;
-  justify-content: center;
-  height: 10vh;
-}
-.send {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-  font-size: 2rem;
-  background: black;
-  transition: background 0.3s ease-out;
-  border: solid red;
-  color: white;
-  cursor: pointer;
-}
