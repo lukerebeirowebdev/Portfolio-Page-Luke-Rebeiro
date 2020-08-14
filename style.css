@@ -26,7 +26,7 @@ img {
   position: inherit;
   left: 50%;
   top: 50%;
-  transform: translate(50%, 5%);
+  transform: translate(50%, 15%);
 }
 
 .footer {
