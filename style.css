@@ -1,8 +1,11 @@
-.nav-link,
+.nav-item,
 .navbar {
   padding: 20px;
   text-transform: uppercase;
-  text-shadow: black;  
+  text-shadow:white;  
+  text-decoration: none;
+  color: white; 
+  font-weight: 600;
 }
 .container {
   padding-bottom: 15px;
@@ -10,9 +13,10 @@
 h2 {
     font-size: 20px;
     text-align: center;
+    
 }
 p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 } 
 img {
