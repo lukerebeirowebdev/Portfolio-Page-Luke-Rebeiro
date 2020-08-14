@@ -14,4 +14,11 @@ p {
     font-size: 20px;
     text-align: center;
 } 
-
+img {
+  width: 50%;
+  height: auto;
+  position: inherit;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 5%);
+} 
