@@ -18,7 +18,7 @@ h2 {
 }
 p {
   font-size: 15px;
-  text-align: justify;
+  text-align: center ;
 }
 img {
   width: 50%;
@@ -26,7 +26,7 @@ img {
   position: inherit;
   left: 50%;
   top: 50%;
-  transform: translate(50%, 15%);
+  transform: translate(50%, 0%);
 }
 
 .footer {
