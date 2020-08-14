@@ -12,14 +12,14 @@
 
 <body>
     <div class="container">
-        <div class="img">
-            <img src="https://i.imgur.com/8AZBdcr.png"
-                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-        </div>
-        <p></p>
+        <div class=" img">
+        <img src="https://i.imgur.com/8AZBdcr.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
     </div>
-<!--Start of Nav-->
-    <div class="container">
+    <p></p>
+    </div>
+    <!--Start of Nav-->
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-md bg-danger navbar-light">
             <button class="navbar-toggler mr-1" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -43,16 +43,16 @@
                 </ul>
             </div>
         </nav>
-<!--End of nav-->
     </div>
-    <div class="container" style="margin-top:30px">
+    <!--End of nav-->
+    <div class="container-fluid align-content-center" style="margin-top:20px">
         <div class="col-sm-12">
             <div class="#home">
                 <h2>Home</h2>
                 <p></p>
             </div>
             <br>
- <!--this is going to have images and writing about-->
+            <!--this is going to have images and writing about-->
             <div class="#about">
                 <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem rerum dolorem error, eos,
@@ -60,24 +60,83 @@
                     soluta hic sit possimus!</p>
             </div>
             <br>
-<!-- Portfolio* this is going to have all my project-->
-            <div class="#portfolio">
+            <!-- Portfolio* this is going to have all my project-->
+            <div class="#projects">
                 <h2>Portfolio</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fuga ex praesentium ipsa iste
                     voluptate dolorem beatae repellendus illum tempora. Corrupti, iusto beatae. Vero, deleniti harum!
                     Tempore consequatur ipsum eos?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magni voluptates exercitationem sequi
+                    quae beatae similique voluptatibus. Odit, recusandae? Blanditiis nisi quos perspiciatis sed itaque
+                    eaque cumque dolor, nobis adipisci.</p>
             </div>
+            <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="/img/chrome_MK7bI1AVDp.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Survey Form</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="/img/chrome_EQ4mLSR6bE.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Basic Contact Request From</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                  </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="/img/chrome_gSvYjWjJHe.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">JS TECHNICAL DOCUMENTATION</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+  
+                    </div>
+                  </div>
+              </div>
+              <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="/img/chrome_RwjL5jlhr1.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Handcrafted Guitars</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="/img/chrome_XhkkfrBHkF.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Tribute Page For Sir David Attenborough</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                  </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="/img/chrome_pSHugPErDr.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Number Guessing Game</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+  
+                    </div>
+                  </div>
+              </div>
             <br>
-<!--Contact-->
+            <!--Contact-->
             <div class="#contact">
                 <h2>Contact</h2>
-                <p>I am always looking to collaborate with people and work on new projects together. If you have an idea and
+                <p>I am always looking to collaborate with people and work on new projects together. If you have an idea
+                    and
                     would like help in creating it please contact me via at <a
-                      href="mailto:lukerebiero@hotmail.co.uk">lukerebeiro@hotmail.co.uk</a> or you can complete
-                    the request form down below.</>
+                        href="mailto:lukerebiero@hotmail.co.uk">lukerebeiro@hotmail.co.uk</a> or you can complete
+                    the request form down below.</p>
             </div>
         </div>
-<!--Contact Form Section-->
+    </div>
+    <!--Contact Form Section-->
+    <div class="col-sm-12">
         <div class="container">
             <form action="action_page.php">
 
@@ -88,17 +147,21 @@
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Please enter your message below.." style="height:200px"></textarea>
+                <textarea id="message" name="message" placeholder="Please enter your message below.."
+                    style="height:200px"></textarea>
 
-                <input type="submit" value="Submit">
-
+                <div class="sub-btn">
+                    <input type="submit" value="Submit">
+                </div>
             </form>
         </div>
     </div>
 
-    <div class="container">
-        <p class="footer">&copy;Luke Rebeiro Web Development 2020</p>
-        <p class="footer">This website is currently a work in progress.</p>
+    <div class="container-fluid">
+        <div class="col-sm-12">
+            <p class="footer">&copy;Luke Rebeiro Web Development 2020</p>
+            <p class="footer">This website is currently a work in progress.</p>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
