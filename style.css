@@ -1,13 +1,14 @@
-.nav-link {
+.nav-link,
+.navbar {
   padding: 20px;
   text-transform: uppercase;
   text-shadow: black;  
 }
 .container {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 h2 {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 p {
