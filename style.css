@@ -24,6 +24,10 @@ p {
   font-size: 20px;
   text-align: center;
 }
+h5 {
+color: #e61c44;
+font-weight: 700;
+}
 img {
   width: 100%;
   height: auto;
@@ -31,6 +35,7 @@ img {
   left: 50%;
   top: 50%;
   transform: translate(auto);
+
 }
 
 .footer {
@@ -154,7 +159,10 @@ margin: auto;
 }
 
 .pictureofme {
-  width:40%;
-  position: inherit;
+  width: 10%;
+  position: initial;
   margin: auto;
   padding-bottom: 10px;
+  vertical-align: middle;
+  filter: grayscale(100%);
+}
