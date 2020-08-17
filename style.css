@@ -14,10 +14,11 @@
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   text-decoration-color: #e61c44;
   text-decoration-line: underline;
+  font-family: "masque", sans-serif;
 }
 p {
   font-size: 20px;
@@ -146,3 +147,14 @@ margin: auto;
 .container-fluid-sm {
   
 }
+
+@font-face {
+  font-family: masque;
+  src: url(/font/MASQUE__.ttf);
+}
+
+.pictureofme {
+  width:40%;
+  position: inherit;
+  margin: auto;
+  padding-bottom: 10px;
