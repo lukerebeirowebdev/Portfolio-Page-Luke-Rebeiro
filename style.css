@@ -39,6 +39,7 @@ img {
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  font-style: italic;
   font-weight: 600;
   position: inherit;
   width: 100%; /* Full width */
@@ -51,6 +52,27 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+label {
+  font-weight: 700;
+}
+input[type=email] {
+  position: inherit;
+  border: 1px solid #DC3545; 
+  border-left-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  font-weight: 600;
+  font-style: italic;
+}
+input[type=fullname] {
+  position: inherit;
+  border: 1px solid #DC3545; 
+  border-left-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  font-weight: 600;
+  font-style: italic;
+}
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #DC3545;
@@ -97,8 +119,8 @@ input[type=submit]:hover {
 #myBtn {
   display: none;
   position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
+  bottom: 10px; 
+  right: 31px; 
   z-index: 99;
   border: none; 
   outline: none; 
@@ -115,4 +137,12 @@ input[type=submit]:hover {
 
 .go-up {
 padding-right: 5px;
+}
+
+.col-sm-9 {
+margin: auto;
+}
+
+.container-fluid-sm {
+  
 }
