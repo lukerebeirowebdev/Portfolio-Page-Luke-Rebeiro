@@ -149,17 +149,13 @@ padding-right: 1px;
 margin: auto;
 }
 
-.container-fluid-sm {
-  
-}
-
 @font-face {
   font-family: masque;
   src: url(/font/MASQUE__.ttf);
 }
 
 .pictureofme {
-  width: 10%;
+  width: 30%;
   position: initial;
   margin: auto;
   padding-bottom: 10px;
