@@ -6,6 +6,9 @@
   color: white;
   font-weight: 700;
   text-align: center;
+  margin: auto;
+  padding: auto;
+  text-justify: auto;
 }
 
 .container {
@@ -18,19 +21,22 @@ h2 {
   text-decoration-color: #e61c44;
   text-decoration-line: underline;
   font-family: "masque", sans-serif;
+  margin: auto;
 }
 p {
   font-size: 20px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  margin: auto;
+  line-height: 40px;
 }
 h5 {
 color: #e61c44;
 font-weight: 700;
 }
 img {
-  width: 100%;
+  width: auto;
   height: auto;
   position: initial;
   left: 50%;
@@ -175,6 +181,10 @@ hr {
   color: #DC3545;
   vertical-align: middle;
   text-align: center;
+  line-height:40px;
+  padding-top: auto ;
+  align-content: middle;
+  margin: auto;
 }
 .featurette-image {
   filter: grayscale(100%);
@@ -184,5 +194,6 @@ hr {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  
 }
 
