@@ -22,6 +22,8 @@ h2 {
 p {
   font-size: 20px;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 h5 {
 color: #e61c44;
@@ -32,7 +34,8 @@ img {
   height: auto;
   position: initial;
   left: 50%;
-  top: 50%;
+  top: 40%;
+  padding-top: 40px ;
   transform: translate(auto);
 
 }
@@ -41,6 +44,8 @@ img {
   text-align: center;
   font-weight: 700;
   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -165,8 +170,8 @@ hr {
   position: static;
   width: 100%;
   min-height: 1px;
-  padding: 50px;
   padding-left: 15px;
+  padding-right: 15px;
   color: #DC3545;
   vertical-align: middle;
   text-align: center;
@@ -176,6 +181,8 @@ hr {
 }
 
 .blockquote {
-  padding: 50px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
