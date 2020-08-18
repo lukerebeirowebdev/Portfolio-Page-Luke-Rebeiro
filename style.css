@@ -155,22 +155,27 @@ margin: auto;
   src: url(/font/MASQUE__.ttf);
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.me {
-  max-width: 70%;
-  filter: grayscale(100%);
-}
-.img-col {
-  flex-basis: 400%;
-}
-
 hr {
   width: 50%;
   color: #DC3545;
   background-color: #DC3545;
   height: 2px;
 }
+.col-md-7 {
+  position: static;
+  width: 100%;
+  min-height: 1px;
+  padding: 50px;
+  padding-left: 15px;
+  color: #DC3545;
+  vertical-align: middle;
+  text-align: center;
+}
+.featurette-image {
+  filter: grayscale(100%);
+}
+
+.blockquote {
+  padding: 50px;
+}
+
