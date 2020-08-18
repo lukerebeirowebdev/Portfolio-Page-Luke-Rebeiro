@@ -1,4 +1,3 @@
-
 .nav-item,
 .navbar {
   text-transform: uppercase;
@@ -100,9 +99,10 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 20px;
+  padding-bottom: 20px;
 }
 
-.sub-btn {
+.button {
   text-align: center;
 }
 .col-card {
@@ -112,6 +112,7 @@ input[type=submit]:hover {
   line-height: 20px;
   margin: 10px;
   text-justify: auto;
+  
 }
 
 .card:hover {
@@ -154,11 +155,22 @@ margin: auto;
   src: url(/font/MASQUE__.ttf);
 }
 
-.pictureofme {
-  width: 30%;
-  position: initial;
-  margin: auto;
-  padding-bottom: 10px;
-  vertical-align: middle;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.me {
+  max-width: 70%;
   filter: grayscale(100%);
+}
+.img-col {
+  flex-basis: 400%;
+}
+
+hr {
+  width: 50%;
+  color: #DC3545;
+  background-color: #DC3545;
+  height: 2px;
 }
