@@ -20,7 +20,7 @@ h2 {
   text-align: center;
   text-decoration-color: #e61c44;
   text-decoration-line: underline;
-  font-family: "masque", sans-serif;
+  font-family: 'masque', sans-serif;
   margin: auto;
 }
 p {
@@ -32,8 +32,8 @@ p {
   line-height: 40px;
 }
 h5 {
-color: #e61c44;
-font-weight: 700;
+  color: #e61c44;
+  font-weight: 700;
 }
 img {
   width: auto;
@@ -42,7 +42,12 @@ img {
   left: 50%;
   top: 40%;
   transform: translate(auto);
-
+}
+#projects,
+#about,
+#contact {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer {
@@ -53,35 +58,37 @@ img {
   padding-right: 10px;
 }
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type='text'],
+select,
+textarea {
   font-style: italic;
   font-weight: 600;
   position: inherit;
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #DC3545; 
+  padding: 12px; /* Some padding */
+  border: 1px solid #dc3545;
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 label {
   font-weight: 700;
 }
-input[type=email] {
+input[type='email'] {
   position: inherit;
-  border: 1px solid #DC3545; 
+  border: 1px solid #dc3545;
   border-left-style: none;
   border-top-style: none;
   border-right-style: none;
   font-weight: 600;
   font-style: italic;
 }
-input[type=fullname] {
+input[type='fullname'] {
   position: inherit;
-  border: 1px solid #DC3545; 
+  border: 1px solid #dc3545;
   border-left-style: none;
   border-top-style: none;
   border-right-style: none;
@@ -89,8 +96,8 @@ input[type=fullname] {
   font-style: italic;
 }
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #DC3545;
+input[type='submit'] {
+  background-color: #dc3545;
   color: black;
   padding: 12px 20px;
   border: none;
@@ -101,7 +108,7 @@ input[type=submit] {
   align-content: center;
 }
 
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #dc3546bd;
 }
 
@@ -116,17 +123,16 @@ input[type=submit]:hover {
   text-align: center;
 }
 .col-card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 5px;
   line-height: 20px;
   margin: 10px;
   text-justify: auto;
-  
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .social-icons {
   text-align: center;
@@ -135,29 +141,29 @@ input[type=submit]:hover {
 
 #myBtn {
   display: none;
-  position: fixed; 
-  bottom: 10px; 
-  right: 30px; 
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
   z-index: 99;
-  border: none; 
-  outline: none; 
-  background-color: #DC3545; 
+  border: none;
+  outline: none;
+  background-color: #dc3545;
   cursor: pointer;
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 18px; 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
 #myBtn:hover {
-  background-color: #555; 
+  background-color: #555;
 }
 
 .go-up {
-padding-right: 1px;
+  padding-right: 1px;
 }
 
 .col-sm-9 {
-margin: auto;
+  margin: auto;
 }
 
 @font-face {
@@ -167,8 +173,8 @@ margin: auto;
 
 hr {
   width: 50%;
-  color: #DC3545;
-  background-color: #DC3545;
+  color: #dc3545;
+  background-color: #dc3545;
   height: 2px;
 }
 .col-md-7 {
@@ -177,11 +183,11 @@ hr {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #DC3545;
+  color: #dc3545;
   vertical-align: middle;
   text-align: center;
-  line-height:40px;
-  padding-top: auto ;
+  line-height: 40px;
+  padding-top: auto;
   align-content: middle;
   margin: auto;
 }
@@ -193,6 +199,9 @@ hr {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-  
 }
-
+.card-group {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+}
