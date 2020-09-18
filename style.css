@@ -1,3 +1,6 @@
+body {
+  background-color:peachpuff;
+}
 .nav-item,
 .navbar {
   text-transform: uppercase;
