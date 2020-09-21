@@ -1,0 +1,15 @@
+body {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.heading {
+margin-top: 10px;
+background-color: white;
+padding: 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
