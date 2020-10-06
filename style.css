@@ -4,7 +4,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 #logo {
-  justify-content: center;
+  text-align: center;
 }
 .nav-item,
 .navbar {
@@ -53,6 +53,11 @@ img {
   transform: translate(auto);
   object-fit: scale-down;
 }
+
+.featurette-image {
+  border-radius: 100%;
+}
+
 #projects,
 #about,
 #contact {
