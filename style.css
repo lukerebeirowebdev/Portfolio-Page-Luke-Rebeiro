@@ -57,6 +57,11 @@ img {
   object-fit: scale-down;
 }
 
+#UI-thumb {
+  justify-content: center;
+  display: flex;
+}
+
 .featurette-image {
   border-radius: 20px;
 }
