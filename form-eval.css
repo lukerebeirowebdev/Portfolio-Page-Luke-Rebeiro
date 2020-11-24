@@ -21,53 +21,6 @@ a {
   color: #e61c44 !important;
 }
 
-.image-resize {
-  height: 450px;
-  padding: 10px;
-  object-fit: contain;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.image-resize2 {
-  height: 450px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.image-resize3 {
-  height: 550px;
-  padding: 10px;
-  padding-bottom: 10px;
-}
-.image-resize4 {
-  height: 450px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.image-resize5 {
-  height: 800px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.image-resize-logo {
-  height: 100px;
-  padding: 10px;
-  object-fit: contain;
-}
-
-.image-resize-button {
-  width: 50%;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-figcaption {
-  font-weight: 700;
+img {
+  margin-bottom: 30px;
 }
