@@ -1,4 +1,4 @@
-log.txt
-/node_modules
-/vscode
+# FILES TO IGNORE
 /div1
+log.txt
+/ignore
