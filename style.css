@@ -2,7 +2,6 @@ body {
   margin: 0;
   text-align: center;
   background-color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 #logo {
@@ -23,8 +22,8 @@ body {
 }
 
 .container {
-  padding-bottom: 15px;
-  text-align: center !important;
+  padding-bottom: 30px;
+  text-align: left !important;
 }
 
 h2 {
@@ -32,7 +31,6 @@ h2 {
   text-align: center;
   text-decoration-color: #e61c44;
   text-decoration-line: underline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: auto;
 }
 p {
@@ -57,11 +55,6 @@ img {
   object-fit: scale-down;
 }
 
-#UI-thumb {
-  justify-content: center;
-  display: flex;
-}
-
 .featurette-image {
   border-radius: 20px;
 }
@@ -80,21 +73,21 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* Style inputs with type="text", select elements and textareas */
+
 input[type='text'],
 select,
 textarea {
   font-style: italic;
   font-weight: 600;
   position: inherit;
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
+  width: 100%; 
+  padding: 12px; 
   border: 1px solid #dc3545;
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
 }
 
 label {
@@ -109,7 +102,7 @@ input[type='email'] {
   font-weight: 600;
   font-style: italic;
 }
-input[type='fullname'] {
+input[type='name'] {
   position: inherit;
   border: 1px solid #dc3545;
   border-left-style: none;
@@ -118,7 +111,7 @@ input[type='fullname'] {
   font-weight: 600;
   font-style: italic;
 }
-/* Style the submit button with a specific background color etc */
+
 input[type='submit'] {
   background-color: #dc3545;
   color: black;
@@ -135,7 +128,7 @@ input[type='submit']:hover {
   background-color: #dc3546bd;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
   padding: 20px;
