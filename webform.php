@@ -1,4 +1,6 @@
-<?php
+<?php 
+
+// Work in progress!
 
 $userName = $_POST ['name'];
 $userEmail = $_POST ['email'];
