@@ -10,20 +10,19 @@ body {
 }
 .nav-item,
 .navbar {
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-shadow: white;
   text-decoration: none;
-  color: white;
-  font-weight: 700;
+  color: white !important;
+  font-weight: 600;
   text-align: center;
-  margin: 5px;
-  padding: auto;
+  margin: 0;
+  padding: 5px;
   margin-top: auto;
 }
-
 .container {
   padding-bottom: 30px;
-  text-align: left !important;
+  text-align: justify;
 }
 
 h2 {
@@ -31,16 +30,18 @@ h2 {
   text-align: center;
   text-decoration-color: #e61c44;
   text-decoration-line: underline;
-  margin: auto;
+  margin: 10px;
 }
+
 p {
-  font-size: 20px;
-  text-align: center;
+  font-size: 18px;
+  text-align: inherit; 
   padding-left: 10px;
   padding-right: 10px;
   margin: auto;
   line-height: 40px;
 }
+
 h5 {
   color: #e61c44;
   font-weight: 700;
@@ -67,11 +68,14 @@ img {
 }
 
 .footer {
+  background-color:#dc3545;
   text-align: center;
-  font-weight: 700;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.social-icons {
+  padding: 5px;
 }
 
 input[type='text'],
