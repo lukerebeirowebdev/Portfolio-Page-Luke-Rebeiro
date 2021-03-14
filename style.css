@@ -221,7 +221,6 @@ hr {
   padding-right: 10px;
 }
 .card-group {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin: auto;
+  margin: 0px;
+  padding: 30px;
 }
