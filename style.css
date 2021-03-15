@@ -152,7 +152,7 @@ input[type='submit']:hover {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(255, 0, 0, 0.651);
 }
 .social-icons {
   text-align: center;
@@ -192,12 +192,6 @@ input[type='submit']:hover {
   src: url(/font/MASQUE__.ttf);
 }
 
-hr {
-  width: 50%;
-  color: #dc3545;
-  background-color: #dc3545;
-  height: 2px;
-}
 .col-md-7 {
   position: static;
   width: 100%;
