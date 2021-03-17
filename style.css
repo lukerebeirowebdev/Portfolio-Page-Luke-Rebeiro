@@ -152,7 +152,7 @@ input[type='submit']:hover {
 }
 
 .card:hover {
-  box-shadow: 0 15px 30px 0 rgba(255, 0, 0, 0.651);
+  box-shadow: 0 15px 30px 0 rgba(85, 85, 85, 0.651);
 }
 .social-icons {
   text-align: center;
