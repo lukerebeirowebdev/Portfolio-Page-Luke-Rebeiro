@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 #logo {
