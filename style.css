@@ -66,6 +66,7 @@ img {
 #contact {
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .footer {
@@ -219,4 +220,8 @@ input[type='submit']:hover {
 .card-group {
   margin: 0px;
   padding: 30px;
+}
+
+.links {
+  text-align: center;
 }
