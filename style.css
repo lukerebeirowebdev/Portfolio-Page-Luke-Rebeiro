@@ -141,6 +141,11 @@ input[type='submit']:hover {
   padding-bottom: 20px;
 }
 
+.container-md {
+  
+
+}
+
 .button {
   text-align: center;
 }
@@ -151,6 +156,7 @@ input[type='submit']:hover {
   line-height: 20px;
   margin: 10px;
   text-justify: auto;
+  align-content:center;
 }
 
 .card:hover {
