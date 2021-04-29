@@ -21,9 +21,10 @@ body {
   padding: 5px;
   margin-top: auto;
 }
-.container {
+.container-fluid{
   padding-bottom: 30px;
-  text-align: justify;
+  text-align: center;
+  flex: auto;
 }
 
 h2 {
@@ -139,11 +140,6 @@ input[type='submit']:hover {
   border-radius: 5px;
   padding: 20px;
   padding-bottom: 20px;
-}
-
-.container-md {
-  
-
 }
 
 .button {
