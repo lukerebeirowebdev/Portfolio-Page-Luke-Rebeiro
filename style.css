@@ -23,18 +23,19 @@ body {
   margin-top: auto;
   letter-spacing: 0.5;
 }
-.container-fluid{
+
+.container-fluid {
   padding-bottom: 30px;
   text-align: center;
   flex: auto;
 }
 
 h2 {
-  font-size: 35px;
-  text-align: center;
-  text-decoration-color: #e61c44;
+  color: black;
+  font-weight: 500;
   text-decoration-line: underline;
-  margin: 10px;
+  text-decoration-color: #e61c44;
+  padding: 20px;
 }
 
 p {
@@ -59,10 +60,6 @@ img {
   top: 40%;
   transform: translate(auto);
   object-fit: scale-down;
-}
-
-.featurette-image {
-  border-radius: 20px;
 }
 
 #projects,
