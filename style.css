@@ -2,14 +2,13 @@ body {
   margin: 0;
   text-align: center;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #logo {
   text-align: center;
   width: 100%;
 }
-
 
 .nav-item,
 .navbar,
@@ -41,7 +40,7 @@ h2 {
 p {
   letter-spacing: 0.5;
   font-size: 16px;
-  text-align: inherit; 
+  text-align: inherit;
   padding-left: 10px;
   padding-right: 10px;
   margin: auto;
@@ -71,7 +70,7 @@ img {
 }
 
 .footer {
-  background-color:#dc3545;
+  background-color: #dc3545;
   text-align: center;
   font-weight: 600;
   padding: 5px;
@@ -81,26 +80,26 @@ img {
   padding: 5px;
 }
 
-input[type='text'],
+input[type="text"],
 select,
 textarea {
   font-style: italic;
   font-weight: 600;
   position: inherit;
-  width: 100%; 
-  padding: 12px; 
+  width: 100%;
+  padding: 12px;
   border: 1px solid #dc3545;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
 }
 
 label {
   font-weight: 700;
 }
-input[type='email'] {
+input[type="email"] {
   position: inherit;
   border: 1px solid #dc3545;
   border-left-style: none;
@@ -109,7 +108,7 @@ input[type='email'] {
   font-weight: 600;
   font-style: italic;
 }
-input[type='name'] {
+input[type="name"] {
   position: inherit;
   border: 1px solid #dc3545;
   border-left-style: none;
@@ -119,7 +118,7 @@ input[type='name'] {
   font-style: italic;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   background-color: #dc3545;
   color: black;
   padding: 12px 20px;
@@ -131,10 +130,9 @@ input[type='submit'] {
   align-content: center;
 }
 
-input[type='submit']:hover {
+input[type="submit"]:hover {
   background-color: #dc3546bd;
 }
-
 
 .button {
   text-align: center;
@@ -146,7 +144,7 @@ input[type='submit']:hover {
   line-height: 20px;
   margin: 10px;
   text-justify: auto;
-  align-content:center;
+  align-content: center;
 }
 
 .card:hover {
@@ -160,17 +158,16 @@ input[type='submit']:hover {
 #myBtn {
   display: flex;
   position: fixed;
-  bottom: 10px;
-  right: 30px;
+  bottom: 5px;
+  right: 5px;
   z-index: 99;
   border: none;
   outline: none;
   background-color: #d83b4b;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   font-size: 16px;
-  margin: 20px;
 }
 
 #myBtn:hover {
