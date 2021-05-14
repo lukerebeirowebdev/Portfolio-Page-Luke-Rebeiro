@@ -1,13 +1,13 @@
 body {
   margin: 0;
   text-align: center;
-  background-color: white;
+  background-color: whitesmoke ;
   font-family: "Roboto", sans-serif;
 }
 
 #logo {
-  text-align: center;
   width: 100%;
+  letter-spacing: 5px;
 }
 
 .nav-item,
