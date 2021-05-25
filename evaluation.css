@@ -8,10 +8,13 @@ body {
 h3 {
   color: #e61c44;
   padding-top: 15px;
+  font-weight: normal !important;
 }
 
 p {
-  font-size: 22px;
+  font-size: 16px;
+  justify-content: left;
+  font-weight: normal;
 }
 
 a {
@@ -20,43 +23,31 @@ a {
 }
 
 .image-resize {
-  height: 450px;
   padding: 10px;
-  object-fit: contain;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .image-resize2 {
-  height: 450px;
   padding: 10px;
-  padding-top: 10px;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 .image-resize3 {
-  height: 550px;
   padding: 10px;
   padding-bottom: 10px;
 }
 .image-resize4 {
-  height: 450px;
-  padding: 10px;
-  padding-top: 10px;
+ padding: 10px;
   padding-bottom: 10px;
 }
 
 .image-resize5 {
-  height: 800px;
   padding: 10px;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .image-resize-logo {
-  height: 100px;
   padding: 10px;
-  object-fit: contain;
+  padding-bottom: 10px;
 }
 figcaption {
   font-weight: 700;
