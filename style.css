@@ -3,7 +3,6 @@ body {
   text-align: center;
   background-color: whitesmoke ;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
 }
 
 #logo {
@@ -41,11 +40,12 @@ h2 {
 p {
   letter-spacing: 0.5;
   font-size: 16px;
-  text-align: inherit;
+  justify-content: left;
   padding-left: 10px;
   padding-right: 10px;
   margin: auto;
   line-height: 40px;
+  font-weight: normal;
 }
 
 h5 {
