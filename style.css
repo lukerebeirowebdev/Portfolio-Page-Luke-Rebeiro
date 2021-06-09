@@ -3,6 +3,7 @@ body {
   text-align: center;
   background-color: whitesmoke ;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 #logo {
@@ -35,6 +36,7 @@ h2 {
   text-decoration-line: underline;
   text-decoration-color: #e61c44;
   padding: 20px;
+  font-family: 'Squada One', cursive;
 }
 
 p {
@@ -218,4 +220,10 @@ input[type="submit"]:hover {
 
 .links {
   text-align: center;
+}
+
+
+.card-title {
+  font-family: 'Squada One', cursive;
+  letter-spacing: 0.8px
 }
