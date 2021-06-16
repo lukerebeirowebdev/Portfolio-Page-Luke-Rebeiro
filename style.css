@@ -213,9 +213,10 @@ input[type="submit"]:hover {
   padding-left: 10px;
   padding-right: 10px;
 }
-.card-group {
+.card-deck {
   margin: 0px;
-  padding: 30px;
+  padding: 10px;
+  
 }
 
 .links {
