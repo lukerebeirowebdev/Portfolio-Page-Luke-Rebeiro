@@ -238,3 +238,7 @@ input[type="submit"]:hover {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.8px
 }
+
+.fa-code {
+  padding: 5px;
+}
