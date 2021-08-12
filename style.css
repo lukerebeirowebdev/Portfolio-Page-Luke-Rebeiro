@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+
 body {
-  margin: 0;
   text-align: center;
   background-color: whitesmoke ;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -14,7 +15,7 @@ body {
 .nav-item,
 .navbar,
 .nav-link {
-  font-size: 15px;
+  font-size: 18px;
   text-transform: capitalize;
   color: white !important;
   text-align: center;
@@ -35,8 +36,9 @@ h2 {
   font-weight: 500;
   text-decoration-line: underline;
   text-decoration-color: #e61c44;
+  text-transform: uppercase;
   padding: 20px;
-  font-family: 'Squada One', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -217,12 +219,22 @@ input[type="submit"]:hover {
   
 }
 
+.my__link {
+  text-decoration: none;
+  color: white;
+}
+
+.my__link:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .links {
   text-align: center;
 }
 
 
 .card-title {
-  font-family: 'Squada One', cursive;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.8px
 }
