@@ -3,8 +3,18 @@
 body {
   text-align: center;
   background-color: whitesmoke ;
-  font-family: 'Open Sans', sans-serif;
-  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif; 
+  scroll-behavior: smooth; 
+}
+
+.tags {
+  display: inline-block;
+  background-color: #C82333; 
+  color: white; 
+  padding: 10px;  /* space between the tags */
+  border-radius: 5px; /* rounded corners */
+  margin: 5px; /* space between the tags */
+
 }
 
 #logo {
@@ -16,10 +26,10 @@ body {
 .navbar,
 .nav-link {
   font-size: 18px;
-  text-transform: capitalize;
-  color: white !important;
-  text-align: center;
-  margin: 0;
+  text-transform: capitalize; 
+  color: white !important; 
+  text-align: center; 
+  margin: 0; 
   padding: 5px;
   margin-top: auto;
   letter-spacing: 0.5;
