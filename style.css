@@ -2,9 +2,10 @@
 
 body {
   text-align: center;
-  background-color: whitesmoke ;
-  font-family: 'Open Sans', sans-serif; 
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth; 
+
 }
 
 .tags {
@@ -14,6 +15,8 @@ body {
   padding: 10px;  /* space between the tags */
   border-radius: 5px; /* rounded corners */
   margin: 5px; /* space between the tags */
+  font-size: 1rem;
+  font-weight: 800;
 
 }
 
@@ -53,19 +56,34 @@ h2 {
 
 p {
   letter-spacing: 0.5;
-  font-size: 16px;
+  font-size: 1.1rem;
   justify-content: left;
   padding-left: 10px;
   padding-right: 10px;
   margin: auto;
   line-height: 40px;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h5 {
+  display: inline-block;
   color: #e61c44;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.5;
+  text-transform: uppercase;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
+
+h5.des-list {
+  color: white;
+  background-color: #C82333;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
 img {
   width: auto;
   height: auto;
