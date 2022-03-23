@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-page-luke-rebeiro",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/ea501a56-f04f-403a-99a0-13a4768eea5e/deploy-status)](https://app.netlify.com/sites/lukerebeirowebdevelopment/deploys)",
+  "main": "Photography.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukerebeirowebdev/Portfolio-Page-Luke-Rebeiro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukerebeirowebdev/Portfolio-Page-Luke-Rebeiro/issues"
+  },
+  "homepage": "https://github.com/lukerebeirowebdev/Portfolio-Page-Luke-Rebeiro#readme"
+}
