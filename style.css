@@ -29,13 +29,27 @@ body {
 .navbar,
 .nav-link {
   font-size: 18px;
+  font-weight: 700;
   text-transform: capitalize; 
-  color: white !important; 
-  text-align: center; 
+  color: #dc3545 !important; 
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif; 
   margin: 0; 
   padding: 5px;
   margin-top: auto;
   letter-spacing: 0.5;
+  text-decoration: none;
+}
+
+.nav-item,
+.navbar,
+.nav-link:hover {
+  color: #C82333 !important;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
 }
 
 
