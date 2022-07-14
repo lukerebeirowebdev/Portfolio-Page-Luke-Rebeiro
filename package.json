@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lukerebeirowebdev/Portfolio-Page-Luke-Rebeiro/issues"
   },
-  "homepage": "https://github.com/lukerebeirowebdev/Portfolio-Page-Luke-Rebeiro#readme"
+  "homepage": "https://github.com/lukerebeirowebdev/Portfolio-Page-Luke-Rebeiro#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "live-server": "^1.1.0"
+  }
 }

@@ -4,20 +4,25 @@ body {
   text-align: center;
   background-color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
 
 }
 
 .tags {
   display: inline-block;
-  background-color: #C82333; 
-  color: white; 
-  padding: 10px;  /* space between the tags */
-  border-radius: 5px; /* rounded corners */
-  margin: 5px; /* space between the tags */
+  background-color: #C82333;
+  color: white;
+  padding: 10px;
+  /* space between the tags */
+  border-radius: 5px;
+  /* rounded corners */
+  margin: 5px;
+  /* space between the tags */
   font-size: 1rem;
   font-weight: 800;
-
 }
 
 #logo {
@@ -28,28 +33,27 @@ body {
 .nav-item,
 .navbar,
 .nav-link {
-  font-size: 18px;
   font-weight: 700;
-  text-transform: capitalize; 
-  color: #dc3545 !important; 
+  text-transform: capitalize;
+  color: white !important;
+  background-color: #C82333;
   text-align: center;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 5px;
-  font-family: 'Roboto', sans-serif; 
-  margin: 0; 
-  padding: 5px;
-  margin-top: auto;
-  letter-spacing: 0.5;
-  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 8px;
+  letter-spacing: normal;
+  font-size: 1rem;
 }
 
 .nav-item,
 .navbar,
 .nav-link:hover {
-  color: #C82333 !important;
-  background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  color: #1a1a1a !important;
+  font-family: open sans;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: all 0.25s ease-in-out;
 }
 
 
@@ -61,7 +65,7 @@ body {
 
 h2 {
   color: black;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration-line: underline;
   text-decoration-color: #e61c44;
   text-transform: uppercase;
@@ -70,8 +74,8 @@ h2 {
 }
 
 p {
-  letter-spacing: 0.5;
-  font-size: 1.1rem;
+  letter-spacing: normal;
+  font-size: 1rem;
   justify-content: left;
   padding-left: 10px;
   padding-right: 10px;
@@ -84,8 +88,8 @@ h5 {
   display: inline-block;
   color: #e61c44;
   font-weight: 800;
-  font-size: 1.1rem;
-  letter-spacing: 0.5;
+  font-size: 1rem;
+  letter-spacing: normal;
   text-transform: uppercase;
   padding: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -96,7 +100,7 @@ h5.des-list {
   background-color: #C82333;
   padding: 20px;
   border-radius: 5px;
-  
+
 }
 
 img {
@@ -119,7 +123,7 @@ img {
 
 .footer {
   color: white;
-  background-color: #dc3545;
+  background-color: #C82333;
   text-align: center;
   font-weight: 500;
   padding: 5px;
@@ -148,6 +152,7 @@ textarea {
 label {
   font-weight: 700;
 }
+
 input[type="email"] {
   position: inherit;
   border: 1px solid #dc3545;
@@ -157,6 +162,7 @@ input[type="email"] {
   font-weight: 600;
   font-style: italic;
 }
+
 input[type="name"] {
   position: inherit;
   border: 1px solid #dc3545;
@@ -186,6 +192,7 @@ input[type="submit"]:hover {
 .button {
   text-align: center;
 }
+
 .col-card {
   transition: 0.3s;
   width: 5px;
@@ -209,15 +216,18 @@ input[type="submit"]:hover {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #d83b4b;
+  background-color: #C82333;
   cursor: pointer;
   padding: 5px;
   border-radius: 10px;
-  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: medium;
+  color: white;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgb(0, 0, 0);
 }
 
 .go-up {
@@ -247,6 +257,7 @@ input[type="submit"]:hover {
   align-content: middle;
   margin: auto;
 }
+
 .featurette-image {
   filter: grayscale(100%);
 }
@@ -256,10 +267,11 @@ input[type="submit"]:hover {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .card-deck {
   margin: 0px;
   padding: 10px;
-  
+
 }
 
 .my__link {
@@ -279,7 +291,7 @@ input[type="submit"]:hover {
 
 .card-title {
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.8px
+  letter-spacing: normal;
 }
 
 .fa-code {
