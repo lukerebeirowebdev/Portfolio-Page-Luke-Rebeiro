@@ -122,7 +122,12 @@ img {
 }
 
 .footer {
+  position: relative;
   color: white;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
   background-color: #C82333;
   text-align: center;
   font-weight: 500;
