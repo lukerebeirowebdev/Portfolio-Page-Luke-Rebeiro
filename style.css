@@ -158,42 +158,6 @@ label {
   font-weight: 700;
 }
 
-input[type="email"] {
-  position: inherit;
-  border: 1px solid #dc3545;
-  border-left-style: none;
-  border-top-style: none;
-  border-right-style: none;
-  font-weight: 600;
-  font-style: italic;
-}
-
-input[type="name"] {
-  position: inherit;
-  border: 1px solid #dc3545;
-  border-left-style: none;
-  border-top-style: none;
-  border-right-style: none;
-  font-weight: 600;
-  font-style: italic;
-}
-
-input[type="submit"] {
-  background-color: #dc3545;
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-  font-weight: 700;
-  align-content: center;
-}
-
-input[type="submit"]:hover {
-  background-color: #dc3546bd;
-}
-
 .button {
   text-align: center;
 }
@@ -301,4 +265,10 @@ input[type="submit"]:hover {
 
 .fa-code {
   padding: 5px;
+}
+
+.main-section {
+  padding: 10px;
+  justify-content: center;
+  margin: 10px;
 }
