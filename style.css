@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap");
 
 body {
   text-align: center;
   background-color: whitesmoke;
-  font-family: 'Open Sans', sans-serif;
-  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: auto;
   margin: 0;
   padding: 0;
-  box-sizing: border-box
-
+  box-sizing: border-box;
 }
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 .tags {
   display: inline-block;
-  background-color: #C82333;
+  background-color: #c82333;
   color: white;
   padding: 10px;
-  /* space between the tags */
   border-radius: 5px;
-  /* rounded corners */
   margin: 5px;
-  /* space between the tags */
   font-size: 1rem;
   font-weight: 800;
 }
@@ -36,9 +38,9 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   color: white !important;
-  background-color: #C82333;
+  background-color: #c82333;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 8px;
   letter-spacing: normal;
@@ -56,11 +58,18 @@ body {
   transition: all 0.25s ease-in-out;
 }
 
-
 .container-fluid {
   padding-bottom: 30px;
   text-align: center;
   flex: auto;
+}
+
+h1,
+.about-me-heading {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 h2 {
@@ -70,7 +79,7 @@ h2 {
   text-decoration-color: #e61c44;
   text-transform: uppercase;
   padding: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
@@ -81,7 +90,7 @@ p {
   padding-right: 10px;
   margin: auto;
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h5 {
@@ -92,15 +101,14 @@ h5 {
   letter-spacing: normal;
   text-transform: uppercase;
   padding: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h5.des-list {
   color: white;
-  background-color: #C82333;
+  background-color: #c82333;
   padding: 20px;
   border-radius: 5px;
-
 }
 
 img {
@@ -128,7 +136,7 @@ img {
   left: 0;
   bottom: 0;
   text-align: center;
-  background-color: #C82333;
+  background-color: #c82333;
   text-align: center;
   font-weight: 500;
   padding: 5px;
@@ -167,7 +175,6 @@ label {
   width: 5px;
   line-height: 20px;
   margin: 10px;
-  text-justify: auto;
   align-content: center;
 }
 
@@ -185,7 +192,7 @@ label {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #C82333;
+  background-color: #c82333;
   cursor: pointer;
   padding: 5px;
   border-radius: 10px;
@@ -240,7 +247,6 @@ label {
 .card-deck {
   margin: 0px;
   padding: 10px;
-
 }
 
 .my__link {
@@ -257,9 +263,8 @@ label {
   text-align: center;
 }
 
-
 .card-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: normal;
 }
 
